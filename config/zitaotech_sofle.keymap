@@ -130,11 +130,11 @@
         RES_layer {
             display-name = "RESERVE";
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans         &none  &none  &none  &none  &none  &none  &none  &none
-&trans  &none      &none      &none      &qrrt_mac  &kp LS(ENTER)  &none  &none  &none  &none  &none  &none
-&trans  &zjjy_mac  &dqjy_mac  &jdzj_mac  &shjh_mac  &kp ENTER      &none  &none  &none  &none  &none  &none  &none  &none
-&trans  &none      &none      &none      &qrjh_mac  &kp LG(ENTER)  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none   &kp LG(C)  &kp LG(V)  &kp RCTRL  &trans     &none          &none  &none  &none  &none
+&trans    &trans     &trans         &trans          &trans     &trans         &none  &none  &none  &none  &none  &none  &none  &none
+&trans    &trans     &trans         &kp UP_ARROW    &trans     &kp LC(C)      &none  &none  &none  &none  &none  &none
+&trans    &zjjy_mac  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT  &kp ENTER      &none  &none  &none  &none  &none  &none  &none  &none
+&trans    &trans     &trans         &kp LG(C)       &kp LG(V)  &kp LS(ENTER)  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
+&kp RGUI  &kp LGUI   &kp LG(SPACE)  &kp RCTRL       &trans     &none          &none  &none  &none  &none
             >;
         };
     };
